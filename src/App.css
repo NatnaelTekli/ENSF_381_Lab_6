@@ -143,6 +143,29 @@ input {
   color: #66758f;
 }
 
+/* Tic-Tac-Toe styles */
+
+.ttt-board {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #162033;
+  background: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Responsive rules */
+
 @media (max-width: 640px) {
   .other-controls {
     margin-left: 0;
